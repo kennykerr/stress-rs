@@ -1,0 +1,9 @@
+[package]
+name = "stress-rs"
+version = "0.1.0"
+authors = ["Kenny Kerr <kenny.kerr@microsoft.com>"]
+edition = "2018"
+
+[dependencies]
+winrt = { git = "https://github.com/microsoft/winrt-rs" }
+bindings = { path = "bindings" }
